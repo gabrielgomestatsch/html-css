@@ -5,21 +5,6 @@
     font-family: 'Ultima';
     src: url('../ex004/fonts/ferrum.otf') format('opentype'), url('../ex004/fonts/ferrum.otf') format('truetype');
 }
-nav {
-    width: min-content;
-    margin: auto;
-}
-a {
-    text-decoration: none;
-}
-body {
-    text-align: justify;
-    margin: auto;
-    width: 600px;
-    padding: 10px;
-    min-width: 400px;
-    max-width: 800px;
-}
 :root {
     --color001: #33093C;
     --color002: #0A0933;
@@ -32,6 +17,25 @@ body {
     --font003: 'Fira Sans', Times, sans-serif;
     --font004: 'Cambria', Times, sans-serif;
 }
+main {
+    text-align: justify;
+    margin: auto;
+    padding: 20px;
+    min-width: 280px;
+    max-width: 750px;
+    width: 80%;
+}
+nav {
+    width: min-content;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+p {
+    text-indent: 10px;
+    line-height: 25px;
+}
 #main-title {
     font: normal 400 3em var(--font001);
     color: var(--color001);
@@ -42,9 +46,15 @@ body {
     color: var(--color002);
     margin: 25px auto ;
 }
+.example-title {
+    font: normal 400 2.3em var(--font004);
+    text-align: justify;
+    margin-top: 30px;
+    text-shadow: 2px 2px 0px var(--color006);
+
+}
 .text {
     font: normal 400 1em var(--font003);
-    text-indent: 15px;
 }
 .boxlink {
     font: normal 300 1.5em var(--font003);
@@ -76,10 +86,11 @@ body {
     padding: 10px;
     width: 300px;
     margin: 0px auto 80px auto;
+
 }
-.example-title {
-    font: normal 400 2.3em var(--font004);
-    text-align: justify;
-    margin-top: 30px;
-    text-shadow: 2px 2px 0px var(--color006);
+main.text {
+    text-indent: 0px;
+}
+main.box {
+    text-indent: 0px;
 }
