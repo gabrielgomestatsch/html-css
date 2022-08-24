@@ -5,6 +5,9 @@
     font-family: 'Ultima';
     src: url('../ex004/fonts/ferrum.otf') format('opentype'), url('../ex004/fonts/ferrum.otf') format('truetype');
 }
+* {
+    margin: 0px;
+}
 :root {
     --color001: #33093C;
     --color002: #0A0933;
@@ -20,10 +23,10 @@
 main {
     text-align: justify;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     min-width: 280px;
     max-width: 750px;
-    width: 80%;
+    width: 95%;
 }
 nav {
     width: min-content;
@@ -46,12 +49,18 @@ p {
     color: var(--color002);
     margin: 25px auto ;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
 .example-title {
     font: normal 400 2.3em var(--font004);
     text-align: justify;
     margin-top: 30px;
     text-shadow: 2px 2px 0px var(--color006);
-
+    display: flex;
 }
 .text {
     font: normal 400 1em var(--font003);
