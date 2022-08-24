@@ -6,7 +6,10 @@
     src: url('../ex004/fonts/ferrum.otf') format('opentype'), url('../ex004/fonts/ferrum.otf') format('truetype');
 }
 * {
-    margin: 0px;
+    margin: 0rem;
+}
+html {
+    font-size: 100%;
 }
 :root {
     --color001: #33093C;
@@ -23,9 +26,9 @@
 main {
     text-align: justify;
     margin: auto;
-    padding: 10px;
-    min-width: 280px;
-    max-width: 750px;
+    padding: 1rem;
+    min-width: 28rem;
+    max-width: 36rem;
     width: 95%;
 }
 nav {
@@ -36,69 +39,74 @@ a {
     text-decoration: none;
 }
 p {
-    text-indent: 10px;
-    line-height: 25px;
+    text-indent: 1.0rem;
 }
 #main-title {
-    font: normal 400 3em var(--font001);
+    font: normal 400 3rem var(--font001);
     color: var(--color001);
-    text-indent: 5px;
+    text-indent: 0.5rem;
 }
 .title {
-    font: normal 400 2em var(--font002);
+    font: normal 400 2rem var(--font002);
     color: var(--color002);
-    margin: 25px auto ;
+    margin: 2.5rem auto ;
 }
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center; 
+    justify-content: space-around; 
 }
 .example-title {
-    font: normal 400 2.3em var(--font004);
+    font: normal 400 2.3rem var(--font004);
     text-align: justify;
-    margin-top: 30px;
-    text-shadow: 2px 2px 0px var(--color006);
+    margin-top: 3rem;
+    text-shadow: 0.2rem 0.2rem 0rem var(--color006);
     display: flex;
 }
 .text {
-    font: normal 400 1em var(--font003);
+    font: normal 400 1rem var(--font003);
 }
 .boxlink {
-    font: normal 300 1.5em var(--font003);
-    border: 5px ridge var(--color003);
-    padding: 15px;
-    margin: 50px auto 25px auto;
+    font: normal 300 1.5rem var(--font003);
+    border: 0.5rem ridge var(--color003);
+    padding: 1.5rem;
+    margin: 5rem auto 2.5rem auto;
     width: min-content;
     height: min-content;
     color: var(--color003);
-    box-shadow: 2px 2px 2px var(--color006);
-    text-shadow: 1.5px 1.5px 1px var(--color006);
+    box-shadow: 0.2rem 0.2rem 0.2rem var(--color006);
+    text-shadow: 0.15rem 0.15rem 0.1rem var(--color006);
 }
 .boxlink:hover {
-    font: italic 300 1.5em var(--font003);
-    border: 5px ridge var(--color004);
-    padding: 15px;
-    margin: 50px auto 25px auto;
+    font: italic 300 1.5rem var(--font003);
+    border: 0.5rem ridge var(--color004);
+    padding: 1.5rem;
+    margin: 5.0rem auto 2.5rem auto;
     width: min-content;
     height: min-content;
     color: var(--color004);
-    box-shadow: 1.5px 1.5px 1.5px var(--color006);
-    text-shadow: 1.5px 1.5px 1px var(--color006);
+    box-shadow: 0.15rem 0.15rem 0.15rem var(--color006);
+    text-shadow: 0.15rem 0.15rem 0.1rem var(--color006);
 }
 .box {
-    font: normal 300 1em var(--font003);
-    border: 5px solid var(--color005);
-    border-radius: 2px;
-    box-shadow: 3px 3px 5px var(--color006);
-    padding: 10px;
-    width: 300px;
+    font: normal 300 1rem var(--font003);
+    border: 0.5rem solid var(--color005);
+    border-radius: 0.2rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem var(--color006);
+    padding: 1.0rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 18.0rem;
     margin: auto;
 }
 main.text {
-    text-indent: 0px;
+    text-indent: 0rem;
 }
 main.box {
-    text-indent: 0px;
+    text-indent: 0rem;
+}
+.warning {
+    display: flex;
+    flex-wrap: wrap;
 }
