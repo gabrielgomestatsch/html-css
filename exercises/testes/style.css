@@ -11,7 +11,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 25vh 25vh 25vh 25vh; 
-    grid-gap: 20px;
+    grid-gap: 10px;
     grid-template-areas: 
     "h h" 
     "m m"
