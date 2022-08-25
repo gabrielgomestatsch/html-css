@@ -1,47 +1,7 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-main {    /* complement :223px + 223px +164px; box_example=164px */
-    height: min-content;
-    width: 600px;
-    padding: 10px;
+html {
     margin: auto;
-    text-align: justify;
-}
-@font-face {
-    font-family: 'Final';
-    src: url('fonts/ferrum.otf') format('opentype'), url('fonts/ferrum.otf') format('truetype');
-}
-#main-title {
-    font: normal 400 3em 'Final', Times, sans-serif;
-    text-indent: 20px;
-    color: #33093C;
-}
-
-.subtitle {
-    font: normal 400 2em 'EB Garamond', Times, sans-serif;
-    text-indent: 20px;
-    color: #0A0933;
-}
-.text {
-    font: normal 400 1em 'Fira Sans', Times, sans-serif;
-    text-indent: 35px
-    
-}
-.box {
-    padding: 15px;  /* top, right, bottom, left. */
-    position: absolute; top: 20px; left: 40px;
-    margin: auto;
-    border: 5px ridge #414175; /* size, style, color. */
-    font: italic 300 1.7em 'Fira Sans', Times, sans-serif;
-    color: #414175;
-}
-.box:hover {
-    padding: 15px; /* top, right, bottom, left. */
-    position: absolute; top: 20px; left: 40px;
-    margin: auto;
-    border: 5px ridge #3F23E4;
-    font: italic 300 1.7em 'Fira Sans', Times, sans-serif;
-    color: #3F23E4;
-
+    padding: 0%;
+    width: 0%;
 }
