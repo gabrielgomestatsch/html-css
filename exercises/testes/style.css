@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #33093c;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25vh 25vh 25vh 25vh; 
+    grid-gap: 20px;
+    grid-template-areas: 
+    "h h" 
+    "m m"
+    "f f"
+    "a a"
+}
+
+header {
+    background: red;
+    grid-area: h
+}
+
+main {
+    background: yellow;
+    grid-area: m
+}
+
+aside {
+    background: green;
+    grid-area: a
+}
+
+footer {
+    background: blue;
+    grid-area: f
+}
